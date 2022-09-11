@@ -1,0 +1,1 @@
+listt = [1, 6, 34, 76, 98, 73]listt = sorted(listt)x = int(input('Введите число которое хотите найти: '))count = 0for i in listt:    if i == x:        print(i)        count += 1        breakif count == 0:    print('Число не найдено :(')
