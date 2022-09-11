@@ -1,0 +1,1 @@
+numbers = [123, 857, 345, 345, 948, 225, 674, 889]a = []for number in numbers:    count = 0    for n in str(number):        if int(n) % 2 == 0:            count += 1    if count == 2:        a.append(number)if len(a) <= 3:    print('Cписок чисел удовлетворяет условию.', a)else:    print('Cписок чисел не удовлетворяет условию.', a)
