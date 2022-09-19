@@ -1,0 +1,1 @@
+number = input('Введите число: ')summa = 0for i in range(len(number)):    summa += int(number[i])print(summa)

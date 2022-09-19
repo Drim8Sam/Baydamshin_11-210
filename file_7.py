@@ -1,0 +1,1 @@
+numberl = input('Введите число: ')numberj = numberl[::-1]expand = []print(f'Развернутая запись числа {numberl}:')for i in range(len(numberl)):    g = numberj[i]    g += f' * {10**i}'    expand.append(g)p = f'= {expand[0]}'for k in range(1, len(expand)):    p += f' + {expand[k]}'print(numberl, p)

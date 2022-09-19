@@ -1,0 +1,1 @@
+k = int(input('Введите число: '))for i in range(2, 11):    print(f'{k} * {i} = {k * i}')
