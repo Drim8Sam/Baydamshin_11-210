@@ -1,1 +1,0 @@
-binn = input()print(int(binn, 2))
