@@ -1,0 +1,1 @@
+# Подсчитать сумму слагаемых (k! * x^k) для k от 1 до n. x - вещественное.x = float(input('Введите вещественное число: '))n = int(input('Введите число: '))summa = 0for k in range(1, n + 1):    fact = 1    for i in range(1, n + 1):        fact *= i    summa += (fact * x ** k)    print(summa)print(summa)

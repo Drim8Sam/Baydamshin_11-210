@@ -1,0 +1,1 @@
+for i in range(2, 10):    for j in range(2, 12):        if j == 11:            print(' ')        else:            print(i, '*', j, '=', i * j)
