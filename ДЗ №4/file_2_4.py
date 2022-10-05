@@ -10,7 +10,6 @@ for i in range(3):
 
 
 field = [a, b, c]
-print(field)
 field_copy = field.copy()
 
 key = ''
